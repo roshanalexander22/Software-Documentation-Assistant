@@ -1,0 +1,336 @@
+[
+  {
+    "id": 1,
+    "category": "Version Sensitivity",
+    "question": "How do I migrate from BaseModel.dict() to Pydantic v2 syntax?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8243,
+    "expected_doc_ids": [
+      "DOC-PYD-001"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-PYD-001",
+      "DOC-PYD-001",
+      "DOC-PYD-001",
+      "DOC-PYD-001"
+    ],
+    "citations": [
+      "[Doc: DOC-PYD-001 | Section: 'Key Syntax Changes: V1 to V2' | Ver: v2.0]"
+    ],
+    "latency_ms": 5467.01,
+    "answer_preview": "### Technical Overview (Pydantic v2.0)\n\nAccording to the official Pydantic documentation (Pydantic V2 Architecture, Migration Guide, and New Syntax), in section **'Key Syntax Chang..."
+  },
+  {
+    "id": 2,
+    "category": "Version Sensitivity",
+    "question": "What is the recommended modern way to manage startup and shutdown events in FastAPI 0.115?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 1.0,
+    "expected_doc_ids": [
+      "DOC-FA-001"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-001",
+      "DOC-FA-001",
+      "DOC-FA-002",
+      "DOC-FA-003"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-001 | Section: 'FastAPI Lifespan Events and Application State Management' | Ver: v0.115]"
+    ],
+    "latency_ms": 8.54,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (FastAPI Lifespan Events and Application State Management), in section **'FastAPI Lifespan ..."
+  },
+  {
+    "id": 3,
+    "category": "Version Sensitivity",
+    "question": "How were startup events registered in legacy FastAPI 0.90?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.9134,
+    "expected_doc_ids": [
+      "DOC-FA-002"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-002",
+      "DOC-FA-002",
+      "DOC-FA-002",
+      "DOC-FA-001"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-002 | Section: 'FastAPI v0.90 Legacy Event Handlers (Deprecated)' | Ver: v0.90-legacy]"
+    ],
+    "latency_ms": 7.45,
+    "answer_preview": "### Technical Overview (FastAPI v0.90-legacy)\n\nAccording to the official FastAPI documentation (FastAPI v0.90 Legacy Event Handlers (Deprecated)), in section **'FastAPI v0.90 Legac..."
+  },
+  {
+    "id": 4,
+    "category": "Version Sensitivity",
+    "question": "How do field validators differ between Pydantic v1 and Pydantic v2?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8731,
+    "expected_doc_ids": [
+      "DOC-PYD-001",
+      "DOC-PYD-002"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-PYD-001",
+      "DOC-PYD-001",
+      "DOC-PYD-001",
+      "DOC-PYD-001"
+    ],
+    "citations": [
+      "[Doc: DOC-PYD-001 | Section: 'Pydantic V2 Architecture, Migration Guide, and New Syntax' | Ver: v2.0]"
+    ],
+    "latency_ms": 8.16,
+    "answer_preview": "### Technical Overview (Pydantic v2.0)\n\nAccording to the official Pydantic documentation (Pydantic V2 Architecture, Migration Guide, and New Syntax), in section **'Pydantic V2 Arch..."
+  },
+  {
+    "id": 5,
+    "category": "Version Sensitivity",
+    "question": "What replaced the regex parameter in Query and Path validation in modern FastAPI?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8231,
+    "expected_doc_ids": [
+      "DOC-FA-011"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-011",
+      "DOC-FA-011",
+      "DOC-FA-011",
+      "DOC-FA-011"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-011 | Section: 'FastAPI v0.90 Legacy Query and Path Validation (Deprecated Regex Syntax)' | Ver: v0.90-legacy]"
+    ],
+    "latency_ms": 7.0,
+    "answer_preview": "### Technical Overview (FastAPI v0.90-legacy)\n\nAccording to the official FastAPI documentation (FastAPI v0.90 Legacy Query and Path Validation (Deprecated Regex Syntax)), in sectio..."
+  },
+  {
+    "id": 6,
+    "category": "API & Code Examples",
+    "question": "How do I declare dependency injection using typing.Annotated in modern FastAPI?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8047,
+    "expected_doc_ids": [
+      "DOC-FA-003"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-003",
+      "DOC-FA-003",
+      "DOC-FA-010",
+      "DOC-FA-003"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-003 | Section: 'Modern Dependency Injection with typing.Annotated in FastAPI' | Ver: v0.115]"
+    ],
+    "latency_ms": 8.49,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (Modern Dependency Injection with typing.Annotated in FastAPI), in section **'Modern Depend..."
+  },
+  {
+    "id": 7,
+    "category": "API & Code Examples",
+    "question": "How do I implement OAuth2 password bearer token authentication with JWT in FastAPI?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8341,
+    "expected_doc_ids": [
+      "DOC-FA-004"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-004",
+      "DOC-FA-004",
+      "DOC-FA-004",
+      "DOC-FA-004"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-004 | Section: 'Core Security Concepts' | Ver: v0.115]"
+    ],
+    "latency_ms": 6.94,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (OAuth2 Password Flow and JWT Authentication in FastAPI), in section **'Core Security Conce..."
+  },
+  {
+    "id": 8,
+    "category": "API & Code Examples",
+    "question": "How can I create custom middleware using BaseHTTPMiddleware to measure request time in FastAPI?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8044,
+    "expected_doc_ids": [
+      "DOC-FA-005"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-005",
+      "DOC-FA-005",
+      "DOC-FA-005",
+      "DOC-FA-005"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-005 | Section: 'Creating Custom Async Middleware with BaseHTTPMiddleware' | Ver: v0.115]"
+    ],
+    "latency_ms": 8.12,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (Middleware Architecture and Custom BaseHTTPMiddleware in FastAPI), in section **'Creating ..."
+  },
+  {
+    "id": 9,
+    "category": "API & Code Examples",
+    "question": "How do asynchronous BackgroundTasks work in FastAPI and how do I schedule an email notification?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.811,
+    "expected_doc_ids": [
+      "DOC-FA-006"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-006",
+      "DOC-FA-006",
+      "DOC-FA-006",
+      "DOC-FA-006"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-006 | Section: 'Asynchronous Background Tasks in FastAPI' | Ver: v0.115]"
+    ],
+    "latency_ms": 7.05,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (Asynchronous Background Tasks in FastAPI), in section **'Asynchronous Background Tasks in ..."
+  },
+  {
+    "id": 10,
+    "category": "API & Code Examples",
+    "question": "How do I stream generative LLM tokens using StreamingResponse and Server-Sent Events in FastAPI?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8079,
+    "expected_doc_ids": [
+      "DOC-FA-007"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-007",
+      "DOC-FA-007",
+      "DOC-FA-007",
+      "DOC-FA-007"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-007 | Section: 'Streaming Responses, Server-Sent Events (SSE), and WebSockets' | Ver: v0.115]"
+    ],
+    "latency_ms": 8.25,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (Streaming Responses, Server-Sent Events (SSE), and WebSockets), in section **'Streaming Re..."
+  },
+  {
+    "id": 11,
+    "category": "Architecture & Testing",
+    "question": "How do I set up async database sessions with SQLAlchemy 2.0 in FastAPI?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.8243,
+    "expected_doc_ids": [
+      "DOC-FA-009"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-009",
+      "DOC-FA-009",
+      "DOC-FA-009",
+      "DOC-FA-009"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-009 | Section: 'Async Database Integration with SQLAlchemy 2.0 in FastAPI' | Ver: v0.115]"
+    ],
+    "latency_ms": 7.9,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (Async Database Integration with SQLAlchemy 2.0 in FastAPI), in section **'Async Database I..."
+  },
+  {
+    "id": 12,
+    "category": "Architecture & Testing",
+    "question": "How do I test async endpoints using httpx AsyncClient and ASGITransport in Pytest?",
+    "should_abstain": false,
+    "is_abstained": false,
+    "abstention_status": "CORRECT_ANSWER",
+    "confidence_score": 0.872,
+    "expected_doc_ids": [
+      "DOC-FA-010"
+    ],
+    "retrieved_doc_ids": [
+      "DOC-FA-010",
+      "DOC-FA-010",
+      "DOC-FA-010",
+      "DOC-FA-010"
+    ],
+    "citations": [
+      "[Doc: DOC-FA-010 | Section: 'Testing Asynchronous Endpoints with httpx.AsyncClient' | Ver: v0.115]"
+    ],
+    "latency_ms": 8.3,
+    "answer_preview": "### Technical Overview (FastAPI v0.115)\n\nAccording to the official FastAPI documentation (Testing Modern FastAPI Applications with Pytest and AsyncClient), in section **'Testing As..."
+  },
+  {
+    "id": 13,
+    "category": "Abstention & Negative",
+    "question": "How do I deploy FastAPI directly to an Ethereum smart contract blockchain virtual machine?",
+    "should_abstain": true,
+    "is_abstained": true,
+    "abstention_status": "CORRECT_ABSTENTION",
+    "confidence_score": 0.5914,
+    "expected_doc_ids": [],
+    "retrieved_doc_ids": [
+      "DOC-FA-005",
+      "DOC-PYD-001",
+      "DOC-FA-010",
+      "DOC-FA-011"
+    ],
+    "citations": [],
+    "latency_ms": 8.06,
+    "answer_preview": "[ABSTENTION] Based on the indexed technical documentation, there is insufficient evidence to answer the question: 'How do I deploy FastAPI directly to an Ethereum smart contract bl..."
+  },
+  {
+    "id": 14,
+    "category": "Abstention & Negative",
+    "question": "What is the @app.quantum_accelerator() decorator in FastAPI for quantum computing speedups?",
+    "should_abstain": true,
+    "is_abstained": true,
+    "abstention_status": "CORRECT_ABSTENTION",
+    "confidence_score": 0.6869,
+    "expected_doc_ids": [],
+    "retrieved_doc_ids": [
+      "DOC-FA-007",
+      "DOC-FA-006",
+      "DOC-FA-002",
+      "DOC-FA-011"
+    ],
+    "citations": [],
+    "latency_ms": 8.36,
+    "answer_preview": "[ABSTENTION] Based on the indexed technical documentation, there is insufficient evidence to answer the question: 'What is the @app.quantum_accelerator() decorator in FastAPI for q..."
+  },
+  {
+    "id": 15,
+    "category": "Abstention & Negative",
+    "question": "How do I compile Pydantic models directly to FPGA hardware bitstreams using Verilog?",
+    "should_abstain": true,
+    "is_abstained": true,
+    "abstention_status": "CORRECT_ABSTENTION",
+    "confidence_score": 0.6669,
+    "expected_doc_ids": [],
+    "retrieved_doc_ids": [
+      "DOC-PYD-002",
+      "DOC-PYD-002",
+      "DOC-PYD-001",
+      "DOC-PYD-001"
+    ],
+    "citations": [],
+    "latency_ms": 8.08,
+    "answer_preview": "[ABSTENTION] Based on the indexed technical documentation, there is insufficient evidence to answer the question: 'How do I compile Pydantic models directly to FPGA hardware bitstr..."
+  }
+]
