@@ -200,3 +200,4 @@ class RAGPipeline:
             "frameworks": frameworks,
             "categories": categories,
         }
+

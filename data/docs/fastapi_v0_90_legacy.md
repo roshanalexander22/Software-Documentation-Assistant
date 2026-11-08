@@ -48,3 +48,4 @@ async def read_items(
 ```
 
 Passing `regex=` in newer versions triggers a deprecation warning: *"The `regex` parameter is deprecated in Pydantic V2, use `pattern` instead."*
+

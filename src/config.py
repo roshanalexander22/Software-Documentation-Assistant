@@ -64,3 +64,4 @@ settings.DOCS_DIR.mkdir(parents=True, exist_ok=True)
 settings.RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 settings.REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 settings.INDEX_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+

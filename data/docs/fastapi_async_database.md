@@ -71,3 +71,4 @@ async def list_items(db: SessionDep):
 - Never use synchronous `Session` blocking calls inside an `async def` endpoint.
 - Always configure `expire_on_commit=False` when using async SQLAlchemy to prevent detached instance lazy load errors.
 - Wrap session handling in an async generator with `try...finally` or `async with`.
+

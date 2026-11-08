@@ -78,3 +78,4 @@ async def startup_event():
     ...
 ```
 Do not use `on_event` in new applications. It does not support shared context yield, makes teardown error handling difficult, and will be removed in future ASGI/Starlette versions.
+

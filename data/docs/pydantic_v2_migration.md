@@ -72,3 +72,4 @@ FastAPI 0.100.0+ automatically works with Pydantic V2. When upgrading your codeb
 1. Replace all calls to `.dict()` with `.model_dump()`.
 2. Replace `@validator` with `@field_validator` and ensure `@classmethod` is added.
 3. Replace inner `class Config:` with `model_config = ConfigDict(...)`.
+

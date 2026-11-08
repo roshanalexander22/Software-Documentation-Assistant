@@ -604,3 +604,4 @@ if __name__ == "__main__":
     reports_dir = Path(__file__).resolve().parent
     report_pdf = reports_dir / "project_report.pdf"
     build_pdf_report(report_pdf)
+

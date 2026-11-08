@@ -51,3 +51,4 @@ def test_latency_performance(benchmark_results):
     latency = benchmark_results["summary"]["latency_stats"]
     # Median latency must be under 500ms on CPU
     assert latency["median_ms"] < 500.0
+

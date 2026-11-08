@@ -49,3 +49,4 @@ htmlcov/
 
 # Logs & Vector Cache (keep index schemas if needed, ignore large temp downloads)
 *.log
+

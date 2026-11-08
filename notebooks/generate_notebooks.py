@@ -296,3 +296,4 @@ with open(notebooks_dir / "02_retrieval_and_evaluation_benchmark.ipynb", "w", en
     json.dump(nb2, f, indent=2)
 
 print(f"[INFO] Jupyter notebooks written to {notebooks_dir}")
+

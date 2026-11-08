@@ -57,3 +57,4 @@ async def signup(user: UserSignup, background_tasks: BackgroundTasks):
 
 - **Use FastAPI `BackgroundTasks`**: For lightweight, low-durability tasks (duration < 15 seconds) tied to the current server process (e.g. notifications, metrics, audit logs).
 - **Use Distributed Queues (Celery, ARQ, Temporal)**: For long-running heavy computing (video transcoding, ML model batch inference, financial reports) that require task retry semantics, state persistence, and dedicated worker fleets.
+

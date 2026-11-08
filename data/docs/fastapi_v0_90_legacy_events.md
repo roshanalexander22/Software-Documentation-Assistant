@@ -45,3 +45,4 @@ def get_status():
 1. **No Shared Context**: Startup and shutdown handlers are disconnected functions. There is no simple way to pass variables created in startup to shutdown without relying on module-level global variables.
 2. **Exception Handling**: If an exception occurs in an `on_event("startup")` handler, graceful resource cleanup in `shutdown` cannot be guaranteed.
 3. **Migration Recommendation**: Upgrade to FastAPI >=0.100.0 and replace `@app.on_event("startup")` with the `@asynccontextmanager` `lifespan` handler parameter on `FastAPI(lifespan=...)`.
+

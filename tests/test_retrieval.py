@@ -45,3 +45,4 @@ def test_retriever_ranking_accuracy(pipeline):
     top_chunk = res.chunks[0]
     assert top_chunk.doc_id == "DOC-FA-007"
     assert "Streaming" in top_chunk.title
+

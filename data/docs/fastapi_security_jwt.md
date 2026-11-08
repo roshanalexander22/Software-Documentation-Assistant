@@ -107,3 +107,4 @@ async def read_users_me(current_user: Annotated[User, Depends(get_current_user)]
 - Always store hashed passwords using algorithms like bcrypt or argon2. Never store plaintext passwords.
 - Verify JWT expiration (`exp`) and audience/issuer claims where appropriate.
 - Configure HTTPS in production so tokens cannot be intercepted in transit.
+

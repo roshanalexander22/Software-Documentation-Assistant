@@ -327,3 +327,4 @@ The system was evaluated against the mandatory **15 Standard Benchmark Questions
 4. **Tiangolo, S.** (2024). *FastAPI Documentation: Lifespan, Dependencies, and Security.* [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
 5. **Pydantic Services Inc.** (2024). *Pydantic V2 Migration Guide & Reference.* [docs.pydantic.dev](https://docs.pydantic.dev/)
 6. **Google DeepMind** (2024). *Gemini API Technical Reference & Developer Best Practices.* [ai.google.dev](https://ai.google.dev/)
+

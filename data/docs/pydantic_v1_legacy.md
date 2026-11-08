@@ -56,3 +56,4 @@ legacy_json = profile.json()  # DEPRECATED in V2 -> use .model_dump_json()
 - `@validator`: Deprecated in favor of `@field_validator`.
 - `@root_validator`: Deprecated in favor of `@model_validator`.
 - `orm_mode = True`: Replaced with `from_attributes = True` in V2.
+

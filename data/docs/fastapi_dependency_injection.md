@@ -76,3 +76,4 @@ async def get_secure_data(api_key: ApiKeyDep, db: DbSessionDep):
 1. **Clean Signature**: Route parameters do not have awkward default values (`= Depends(...)`).
 2. **Reusability**: Type aliases like `DbSessionDep` can be imported across any router file.
 3. **Painless Testing**: Pytest test suites can override dependencies using `app.dependency_overrides[get_db] = mock_get_db` seamlessly.
+

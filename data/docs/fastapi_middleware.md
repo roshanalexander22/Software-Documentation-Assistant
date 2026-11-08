@@ -74,3 +74,4 @@ async def ping():
 
 ## Execution Order
 Middleware components execute in reverse order of addition (LIFO). The last middleware added with `add_middleware` will be the first to process an incoming request and the last to process the outgoing response.
+

@@ -81,3 +81,4 @@ class EmbeddingService:
             else:
                 vectors[i, 0] = 1.0
         return vectors
+

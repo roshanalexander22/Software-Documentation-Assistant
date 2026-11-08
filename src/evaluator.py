@@ -409,3 +409,4 @@ class BenchmarkEvaluator:
             print(f"[INFO] Saved evaluation charts to {fig_dir / 'evaluation_metrics.png'} and confusion_matrix.png")
         except Exception as e:
             print(f"[WARN] Failed to generate matplotlib charts: {e}")
+

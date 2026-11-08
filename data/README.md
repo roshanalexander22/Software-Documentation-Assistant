@@ -56,3 +56,4 @@ source_url: string     # Upstream official documentation reference
 
 ## Licensing & Attribution
 - Text and code examples derived from and aligned with official FastAPI documentation (MIT License, Tiangolo) and Pydantic documentation (MIT License, Pydantic Services Inc.).
+

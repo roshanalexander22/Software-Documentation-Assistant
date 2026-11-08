@@ -72,3 +72,4 @@ def test_vector_store_persistence(tmp_path):
     assert success is True
     assert new_store.count() == 1
     assert new_store.chunks[0].chunk_id == "DOC-A_chk01"
+

@@ -67,3 +67,4 @@ def test_generator_produces_citations_for_valid_evidence():
     assert len(output.citations) >= 1
     assert "DOC-FA-001" in output.citations[0]
     assert "[Doc: DOC-FA-001" in output.answer or "[Doc: DOC-FA-001" in output.citations[0]
+

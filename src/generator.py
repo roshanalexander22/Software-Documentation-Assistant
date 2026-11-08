@@ -219,3 +219,4 @@ Do not attempt to fabricate an answer.
         """Extracts [Doc: ... | Section: ... | Ver: ...] citation patterns."""
         matches = re.findall(r"\[Doc:\s*[^\]]+\]", text)
         return list(dict.fromkeys(matches))  # remove duplicates while preserving order
+

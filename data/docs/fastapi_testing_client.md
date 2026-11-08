@@ -65,3 +65,4 @@ async def test_async_endpoint(test_app):
 
 ## Dependency Overrides Pattern
 FastAPI's `app.dependency_overrides` dictionary allows swapping any dependency callable (like database sessions, OAuth2 authentication, external weather APIs) with a mock fixture without needing monkeypatching or complex mock libraries.
+
