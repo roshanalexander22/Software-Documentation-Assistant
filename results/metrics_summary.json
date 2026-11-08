@@ -14,9 +14,9 @@
     "FN": 0
   },
   "latency_stats": {
-    "mean_ms": 371.85,
-    "median_ms": 8.12,
-    "min_ms": 6.94,
-    "max_ms": 5467.01
+    "mean_ms": 11.95,
+    "median_ms": 9.34,
+    "min_ms": 8.33,
+    "max_ms": 23.79
   }
 }
